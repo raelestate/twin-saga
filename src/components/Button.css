@@ -1,0 +1,49 @@
+.custom-frame-button {
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.custom-frame-button::before {
+  content: "";
+  position: absolute;
+  left: -0.03rem;
+  right: -0.03rem;
+  top: -0.03rem;
+  bottom: -0.03rem;
+  pointer-events: none;
+  z-index: 1;
+
+  border: 1rem solid transparent;
+  border-image-source: url('src/assets/images/frame.png');
+  border-image-slice: 20 20 fill;
+  border-image-repeat: stretch;
+  border-image-outset: 0;
+  border-image-width: 1;
+
+filter: brightness(0) saturate(100%) invert(73%) sepia(28%) saturate(2428%) hue-rotate(13deg) brightness(105%) contrast(92%);
+}
+
+.custom-frame-button::after {
+  content: "";
+  position: absolute;
+  top: -150%;
+  left: -50%;
+  width: 50%;
+  height: 400%;
+  pointer-events: none;
+  z-index: 2;
+
+
+
+  transform: translateX(-150%) rotate(25deg);
+  opacity: 0;
+}
+
+/* HOVER ANIMATION */
+.custom-frame-button:hover::after,.custom-frame-button:hover::before {
+  opacity: 1;
+  filter: brightness(100%);
+  transition: filter 0.8s ease-in-out, opacity 0ms ease-in-out;
+
+}
