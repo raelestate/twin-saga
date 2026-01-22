@@ -22,7 +22,7 @@ export const Logo: FC<LogoProps> = ({
 }) => {
   const logo = (
     <img
-      src="src/assets/images/LargerResLogo.png"
+      src="images/LargerResLogo.png"
       alt="Twin Saga"
       loading="eager"
       decoding="async"

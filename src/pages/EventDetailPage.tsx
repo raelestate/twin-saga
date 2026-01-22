@@ -9,7 +9,7 @@ export function EventDetailPage() {
     location: 'Twin Saga Realm',
     status: 'ONGOING',
     description: 'Celebrate the reunion of the Twin Saga community with exclusive events and rewards.',
-    featured_image: 'src/assets/images/event-featured.png',
+    featured_image: 'images/event-featured.png',
     fullDescription: `The Grand Reunion Festival marks the biggest celebration in Twin Saga history. For over a month, players from around the world will come together to participate in exclusive activities, earn rare rewards, and compete for legendary titles.
 
 This festival features multiple stages with different events happening throughout the month. From casual daily activities to hardcore endgame challenges, every player can find something to enjoy.`,

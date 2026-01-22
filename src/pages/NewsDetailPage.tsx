@@ -10,7 +10,7 @@ export function NewsDetailPage() {
     author: 'Twin Saga Team',
     date: 'January 20, 2026',
     category: 'Event',
-    featured_image: 'src/assets/images/news-featured.png',
+    featured_image: 'images/news-featured.png',
     readTime: '8 min read',
     content: `The Grand Reunion Festival is now live! This is our most ambitious event yet, bringing together the entire Twin Saga community for an unforgettable celebration.
 

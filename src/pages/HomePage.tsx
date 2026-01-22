@@ -28,7 +28,7 @@ function HomePage() {
     <>
       <Header />
       <Navbar links={links}/>
-      <HeroSection rotatingCircleSrc="src/assets/images/Dr-Strange-Magic-Circle-Mystical-Energy-Effect-PNG.png" />
+      <HeroSection rotatingCircleSrc="images/Dr-Strange-Magic-Circle-Mystical-Energy-Effect-PNG.png" />
       <DownloadSection />
       <NewsSection />
       <ChangelogSection />

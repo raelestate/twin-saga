@@ -11,7 +11,7 @@ export function DownloadSection() {
       description: 'Optimized for Windows 10 and above. High performance DirectX 12 support.',
       requirements: 'Windows 10/11, 8GB RAM, SSD 50GB',
       date: 'January 15, 2026',
-      image: 'src/assets/images/LargerResLogo.png'
+      image: 'images/LargerResLogo.png'
     },
     {
       id: 2,
@@ -22,7 +22,7 @@ export function DownloadSection() {
       description: 'Universal binary for Intel and Apple Silicon Macs.',
       requirements: 'macOS 11+, 8GB RAM, SSD 50GB',
       date: 'January 15, 2026',
-      image: 'src/assets/images/LargerResLogo.png'
+      image: 'images/LargerResLogo.png'
     },
     {
       id: 3,
@@ -33,7 +33,7 @@ export function DownloadSection() {
       description: 'Full support for Ubuntu, Fedora, and other major distributions.',
       requirements: 'Linux kernel 4.4+, 8GB RAM, SSD 50GB',
       date: 'January 15, 2026',
-      image: 'src/assets/images/LargerResLogo.png'
+      image: 'images/LargerResLogo.png'
     }
   ];
 

@@ -6,7 +6,7 @@ export function WikiSection() {
       {/* Floating decorative elements */}
       <div className="absolute bottom-0 right-0 w-500 h-500 pointer-events-none overflow-hidden opacity-20">
         <img
-          src="src/assets/images/95-951926_go-to-image-magic-circle-anime-png-clipart.png"
+          src="images/95-951926_go-to-image-magic-circle-anime-png-clipart.png"
           alt="Floating Orb"
           className="absolute w-7xl h-320 -bottom-160 -right-160 animate-spin-slow"
         />

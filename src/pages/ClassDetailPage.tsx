@@ -12,7 +12,7 @@ export function ClassDetailPage() {
       color: 'from-red-900 to-red-700',
       description: 'Unstoppable warrior fueled by rage and primal power.',
       fullDescription: 'Berserkers are fearless warriors who harness their fury to unleash devastating attacks. The more damage they take, the stronger they become.',
-      image: 'src/assets/images/Berserker.webp',
+      image: 'images/Berserker.webp',
       stats: {
         health: 9,
         attack: 10,
@@ -33,7 +33,7 @@ export function ClassDetailPage() {
       color: 'from-yellow-900 to-yellow-700',
       description: 'Holy healer blessed with divine protection and recovery.',
       fullDescription: 'Clerics are devoted healers who channel divine magic to support and protect their allies while smiting their enemies.',
-      image: 'src/assets/images/Cleric.webp',
+      image: 'images/Cleric.webp',
       stats: {
         health: 7,
         attack: 5,
@@ -54,7 +54,7 @@ export function ClassDetailPage() {
       color: 'from-purple-900 to-purple-700',
       description: 'Dragon-bonded warrior commanding elemental fury and draconic strength.',
       fullDescription: 'Dragonknights have formed pacts with ancient dragons, gaining access to devastating elemental abilities and draconic resilience.',
-      image: 'src/assets/images/Dragonknight.webp',
+      image: 'images/Dragonknight.webp',
       stats: {
         health: 8,
         attack: 8,
@@ -75,7 +75,7 @@ export function ClassDetailPage() {
       color: 'from-gray-900 to-gray-700',
       description: 'Fast-draw expert with precision gunfire and explosive tactics.',
       fullDescription: 'Gunslingers are quick-witted mercenaries who rely on speed, precision, and firepower to outgun their opponents.',
-      image: 'src/assets/images/Gunslinger.webp',
+      image: 'images/Gunslinger.webp',
       stats: {
         health: 6,
         attack: 8,
@@ -96,7 +96,7 @@ export function ClassDetailPage() {
       color: 'from-green-900 to-green-700',
       description: 'Skilled tracker and ranged combatant with beast mastery.',
       fullDescription: 'Hunters are masters of nature who track prey and command loyal beasts to fight alongside them in battle.',
-      image: 'src/assets/images/Hunter.webp',
+      image: 'images/Hunter.webp',
       stats: {
         health: 7,
         attack: 7,
@@ -117,7 +117,7 @@ export function ClassDetailPage() {
       color: 'from-blue-900 to-blue-700',
       description: 'Wielder of elemental magic with powerful area spells.',
       fullDescription: 'Mages harness the raw power of the elements to control the battlefield from a distance with devastating spells.',
-      image: 'src/assets/images/Mage.webp',
+      image: 'images/Mage.webp',
       stats: {
         health: 5,
         attack: 4,
@@ -138,7 +138,7 @@ export function ClassDetailPage() {
       color: 'from-indigo-900 to-indigo-700',
       description: 'Dark sorcerer commanding forbidden magic and dark rituals.',
       fullDescription: 'Occultists delve into forbidden knowledge to cast powerful dark magic, cursing enemies and draining their life force.',
-      image: 'src/assets/images/Occultist.webp',
+      image: 'images/Occultist.webp',
       stats: {
         health: 6,
         attack: 5,
@@ -159,7 +159,7 @@ export function ClassDetailPage() {
       color: 'from-amber-900 to-amber-700',
       description: 'Holy knight balancing offense and defense with sacred power.',
       fullDescription: 'Paladins are noble warriors who combine martial prowess with holy magic, protecting allies and smiting evil.',
-      image: 'src/assets/images/Paladin.webp',
+      image: 'images/Paladin.webp',
       stats: {
         health: 8,
         attack: 7,
@@ -180,7 +180,7 @@ export function ClassDetailPage() {
       color: 'from-slate-900 to-slate-700',
       description: 'Stealthy assassin dealing critical damage from the shadows.',
       fullDescription: 'Rogues are masters of stealth and precision, striking from the shadows with deadly accuracy.',
-      image: 'src/assets/images/Rogue.webp',
+      image: 'images/Rogue.webp',
       stats: {
         health: 6,
         attack: 8,
@@ -201,7 +201,7 @@ export function ClassDetailPage() {
       color: 'from-orange-900 to-orange-700',
       description: 'Master swordsman with perfect technique and fluid combat.',
       fullDescription: 'Swordmasters have perfected the art of the blade through decades of training, executing flawless techniques in battle.',
-      image: 'src/assets/images/Swordmaster.webp',
+      image: 'images/Swordmaster.webp',
       stats: {
         health: 8,
         attack: 9,

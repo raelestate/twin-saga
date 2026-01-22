@@ -8,7 +8,7 @@ export function NewsSection() {
       title: 'Grand Reunion Festival Begins!',
       date: 'January 20, 2026',
       category: 'Event',
-      featured_image: 'src/assets/images/LargerResLogo.png',
+      featured_image: 'images/LargerResLogo.png',
       preview: 'The Grand Reunion Festival is now live! Join us for exclusive rewards and exciting challenges.',
       readTime: '8 min'
     }
@@ -19,7 +19,7 @@ export function NewsSection() {
       {/* Floating decorative elements */}
       <div className="absolute top-10 right-0 w-500 h-500 pointer-events-none overflow-hidden opacity-20">
         <img
-          src="src/assets/images/95-951926_go-to-image-magic-circle-anime-png-clipart.png"
+          src="images/95-951926_go-to-image-magic-circle-anime-png-clipart.png"
           alt="Floating Orb"
           className="absolute w-7xl h-320 -top-160 -right-160 animate-spin-slow"
         />
