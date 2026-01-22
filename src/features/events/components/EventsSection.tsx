@@ -9,7 +9,7 @@ export function EventsSection() {
       date: 'January 20 - February 5, 2026',
       location: 'Twin Saga Realm',
       status: 'ONGOING',
-      featured_image: 'images/LargerResLogo.png',
+      featured_image: 'src/assets/images/LargerResLogo.png',
       description: 'Celebrate the reunion of the Twin Saga community with exclusive events and rewards.',
       participants: 15243
     }
@@ -43,7 +43,7 @@ export function EventsSection() {
       {/* Floating decorative elements */}
       <div className="absolute bottom-0 left-0 w-500 h-500 pointer-events-none overflow-hidden opacity-20">
         <img
-          src="images/Dr-Strange-Magic-Circle-Mystical-Energy-Effect-PNG.png"
+          src="src/assets/images/Dr-Strange-Magic-Circle-Mystical-Energy-Effect-PNG.png"
           alt="Floating Orb"
           className="absolute w-7xl h-320 -bottom-160 -left-160 animate-spin-slow"
         />

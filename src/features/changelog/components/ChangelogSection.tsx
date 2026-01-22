@@ -16,14 +16,14 @@ export function ChangelogSection() {
       {/* Floating decorative elements */}
       <div className="absolute top-0 left-0 w-1000 h-1000 pointer-events-none overflow-hidden">
         <img
-          src="images/95-951926_go-to-image-magic-circle-anime-png-clipart.png"
+          src="src/assets/images/95-951926_go-to-image-magic-circle-anime-png-clipart.png"
           alt="Floating Orb"
           className="absolute w-7xl h-320 -top-160 -left-160 animate-spin-slow opacity-40 pointer-events-none select-none"
         />
       </div>
       <div className="absolute bottom-0 right-0 w-1000 h-1000 pointer-events-none overflow-hidden">
         <img
-          src="images/95-951926_go-to-image-magic-circle-anime-png-clipart.png"
+          src="src/assets/images/95-951926_go-to-image-magic-circle-anime-png-clipart.png"
           alt="Floating Orb"
           className="absolute w-7xl h-320 -bottom-160 -right-160 animate-spin-slow opacity-40 pointer-events-none select-none"
         />

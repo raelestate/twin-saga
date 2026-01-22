@@ -6,7 +6,7 @@ import { HeroImageSlideshow } from "./HeroImageSlideshow";
 export const HeroSection: FC<HeroSectionWithImagesProps> = ({
   floatingElements=[
   {
-    src: "images/spark.png",
+    src: "src/assets/images/spark.png",
     size: 1920,
     top: "20%",
     left: "-800%",
@@ -22,7 +22,7 @@ export const HeroSection: FC<HeroSectionWithImagesProps> = ({
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: `url('images/The_Royal_City_of_Arcadia.webp')`,
+          backgroundImage: `url('src/assets/images/The_Royal_City_of_Arcadia.webp')`,
           filter: "brightness(40%)",
         }}
       />
@@ -90,16 +90,16 @@ export const HeroSection: FC<HeroSectionWithImagesProps> = ({
         <div className="flex-1 relative">
           <HeroImageSlideshow
             images={[
-              "images/Berserker.webp",
-              "images/Cleric.webp",
-              "images/Dragonknight.webp",
-              "images/Gunslinger.webp",
-              "images/Hunter.webp",
-              "images/Mage.webp",
-              "images/Occultist.webp",
-              "images/Paladin.webp",
-              "images/Rogue.webp",
-              "images/Swordmaster.webp",
+              "src/assets/images/Berserker.webp",
+              "src/assets/images/Cleric.webp",
+              "src/assets/images/Dragonknight.webp",
+              "src/assets/images/Gunslinger.webp",
+              "src/assets/images/Hunter.webp",
+              "src/assets/images/Mage.webp",
+              "src/assets/images/Occultist.webp",
+              "src/assets/images/Paladin.webp",
+              "src/assets/images/Rogue.webp",
+              "src/assets/images/Swordmaster.webp",
             ]}
             interval={3000}
             className="hero-float hero-animate"

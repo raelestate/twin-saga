@@ -8,7 +8,7 @@ export function CharacterClassesSection() {
       name: 'Cleric',
       description: 'Holy healer combining support and divine magic for protection.',
       color: 'from-yellow-900 to-yellow-700',
-      image: 'images/Cleric.webp',
+      image: 'src/assets/images/Cleric.webp',
       stats: '💚 HEL 10 | ✨ MAG 9'
     },
     {
@@ -16,7 +16,7 @@ export function CharacterClassesSection() {
       name: 'Warrior',
       description: 'Master of melee combat with heavy armor and devastating attacks.',
       color: 'from-red-900 to-red-700',
-      image: 'images/Warrior.webp',
+      image: 'src/assets/images/Warrior.webp',
       stats: '⚔️ ATK 10 | 🛡️ DEF 9'
     },
     {
@@ -24,7 +24,7 @@ export function CharacterClassesSection() {
       name: 'Mage',
       description: 'Wielder of elemental magic with powerful area spells.',
       color: 'from-purple-900 to-purple-700',
-      image: 'images/Mage.webp',
+      image: 'src/assets/images/Mage.webp',
       stats: '✨ MAG 10 | 🎯 DEX 8'
     },
     {
@@ -32,7 +32,7 @@ export function CharacterClassesSection() {
       name: 'Archer',
       description: 'Swift and precise with deadly ranged attacks and crowd control.',
       color: 'from-green-900 to-green-700',
-      image: 'images/Archer.webp',
+      image: 'src/assets/images/Archer.webp',
       stats: '🏹 RNG 10 | 🎯 DEX 9'
     },
     {
@@ -40,7 +40,7 @@ export function CharacterClassesSection() {
       name: 'Rogue',
       description: 'Stealthy assassin dealing critical damage from the shadows.',
       color: 'from-gray-900 to-gray-700',
-      image: 'images/Rogue.webp',
+      image: 'src/assets/images/Rogue.webp',
       stats: '💥 CRT 10 | 🎯 DEX 9'
     },
     {
@@ -48,7 +48,7 @@ export function CharacterClassesSection() {
       name: 'Mystic',
       description: 'Ancient mystic channeling forbidden energy for transformation.',
       color: 'from-indigo-900 to-indigo-700',
-      image: 'images/Mystic.webp',
+      image: 'src/assets/images/Mystic.webp',
       stats: '✨ MAG 9 | 💜 MYS 10'
     }
   ];
@@ -58,7 +58,7 @@ export function CharacterClassesSection() {
       {/* Floating decorative elements */}
       <div className="absolute top-0 left-0 w-500 h-500 pointer-events-none overflow-hidden opacity-20">
         <img
-          src="images/95-951926_go-to-image-magic-circle-anime-png-clipart.png"
+          src="src/assets/images/95-951926_go-to-image-magic-circle-anime-png-clipart.png"
           alt="Floating Orb"
           className="absolute w-7xl h-320 -top-160 -left-160 animate-spin-slow"
         />

@@ -27,7 +27,7 @@ export function Footer() {
           {/* Logo Section */}
           <div className="flex flex-col items-start">
             <div className="mb-2">
-              <img src="images/LargerResLogo.png" alt="Twin Saga Logo" className="h-auto w-100 object-contain"/>
+              <img src="src/assets/images/LargerResLogo.png" alt="Twin Saga Logo" className="h-auto w-100 object-contain"/>
             </div>
             <p className="text-gray-400 text-sm">
               Experience the world of Twin Saga. Magic, adventure, and heroes await.

@@ -1,6 +1,6 @@
 // herosection.constants.ts
 export const HERO_BACKGROUND =
-  "images/The_Royal_City_of_Arcadia.webp";
+  "src/assets/images/The_Royal_City_of_Arcadia.webp";
 
 export const HERO_CLASSES = [
   "Berserker",
@@ -13,4 +13,4 @@ export const HERO_CLASSES = [
   "Paladin",
   "Rogue",
   "Swordmaster",
-].map((name) => `images/${name}.webp`);
+].map((name) => `src/assets/images/${name}.webp`);
