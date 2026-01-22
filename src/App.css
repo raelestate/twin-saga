@@ -120,7 +120,7 @@ body {
   z-index: 1;
 
   border: 1rem solid transparent;
-  border-image-source: url('src/assets/src/assets/images/frame.png');
+  border-image-source: url('src/assets/images/frame.png');
   border-image-slice: 20 20 fill;
   border-image-repeat: stretch;
   border-image-outset: 0;
