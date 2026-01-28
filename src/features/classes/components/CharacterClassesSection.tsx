@@ -9,7 +9,7 @@ export function CharacterClassesSection() {
       description: 'Holy healer combining support and divine magic for protection.',
       color: 'from-yellow-900 to-yellow-700',
       image: 'src/assets/images/Cleric.webp',
-      stats: '💚 HEL 10 | ✨ MAG 9'
+      stats: ' HEL 10 | ✨ MAG 9'
     },
     {
       id: 'warrior',
@@ -17,7 +17,7 @@ export function CharacterClassesSection() {
       description: 'Master of melee combat with heavy armor and devastating attacks.',
       color: 'from-red-900 to-red-700',
       image: 'src/assets/images/Warrior.webp',
-      stats: '⚔️ ATK 10 | 🛡️ DEF 9'
+      stats: ' ATK 10 |  DEF 9'
     },
     {
       id: 'mage',
@@ -25,7 +25,7 @@ export function CharacterClassesSection() {
       description: 'Wielder of elemental magic with powerful area spells.',
       color: 'from-purple-900 to-purple-700',
       image: 'src/assets/images/Mage.webp',
-      stats: '✨ MAG 10 | 🎯 DEX 8'
+      stats: ' MAG 10 |  DEX 8'
     },
     {
       id: 'archer',
@@ -33,7 +33,7 @@ export function CharacterClassesSection() {
       description: 'Swift and precise with deadly ranged attacks and crowd control.',
       color: 'from-green-900 to-green-700',
       image: 'src/assets/images/Archer.webp',
-      stats: '🏹 RNG 10 | 🎯 DEX 9'
+      stats: ' RNG 10 |  DEX 9'
     },
     {
       id: 'rogue',
@@ -41,7 +41,7 @@ export function CharacterClassesSection() {
       description: 'Stealthy assassin dealing critical damage from the shadows.',
       color: 'from-gray-900 to-gray-700',
       image: 'src/assets/images/Rogue.webp',
-      stats: '💥 CRT 10 | 🎯 DEX 9'
+      stats: ' CRT 10 |  DEX 9'
     },
     {
       id: 'mystic',
@@ -49,13 +49,12 @@ export function CharacterClassesSection() {
       description: 'Ancient mystic channeling forbidden energy for transformation.',
       color: 'from-indigo-900 to-indigo-700',
       image: 'src/assets/images/Mystic.webp',
-      stats: '✨ MAG 9 | 💜 MYS 10'
+      stats: ' MAG 9 |  MYS 10'
     }
   ];
 
   return (
     <section className="relative mx-auto px-4 py-20 bg-linear-to-b from-black via-gray-900 to-black overflow-hidden">
-      {/* Floating decorative elements */}
       <div className="absolute top-0 left-0 w-500 h-500 pointer-events-none overflow-hidden opacity-20">
         <img
           src="src/assets/images/95-951926_go-to-image-magic-circle-anime-png-clipart.png"
@@ -64,7 +63,6 @@ export function CharacterClassesSection() {
         />
       </div>
 
-      {/* Animated particles */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
         {[...Array(15)].map((_, i) => (
           <motion.div
@@ -117,7 +115,6 @@ export function CharacterClassesSection() {
                 whileHover={{ y: -10, boxShadow: '0 20px 40px rgba(250, 204, 21, 0.2)' }}
                 className="custom-frame group overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all border border-yellow-400 border-opacity-30 hover:border-opacity-100 h-full"
               >
-                {/* Class Image */}
                 <div className={`bg-linear-to-br ${classItem.color} h-48 overflow-hidden relative flex items-center justify-center`}>
                   <img 
                     src={classItem.image}
@@ -127,7 +124,6 @@ export function CharacterClassesSection() {
                   <div className="absolute inset-0 bg-linear-to-t from-black via-transparent to-transparent"></div>
                 </div>
 
-                {/* Content */}
                 <div className="p-6 relative">
                   <h3 className="text-2xl font-cinzel text-yellow-400 mb-2 group-hover:text-yellow-300 transition-colors">
                     {classItem.name}

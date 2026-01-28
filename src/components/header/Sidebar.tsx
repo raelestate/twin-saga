@@ -8,7 +8,7 @@ interface SidebarProps {
 }
 
 export const Sidebar: FC<SidebarProps> = ({ isOpen, onClose, children }) => {
-  if (typeof document === 'undefined') return null; // SSR safe
+  if (typeof document === 'undefined') return null; 
 
   return createPortal(
     <div
@@ -16,14 +16,12 @@ export const Sidebar: FC<SidebarProps> = ({ isOpen, onClose, children }) => {
         isOpen ? 'translate-x-0' : '-translate-x-full'
       } transition-transform duration-300`}
     >
-      {/* Overlay */}
       <div
         className="fixed inset-0 bg-black/50"
         onClick={onClose}
         aria-hidden="true"
       />
 
-      {/* Sidebar panel */}
       <div className="relative z-10 w-64 bg-gray-900 text-white p-6 flex flex-col gap-4">
         {children}
       </div>

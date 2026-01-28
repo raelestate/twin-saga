@@ -22,9 +22,7 @@ export function Footer() {
   return (
     <footer className="bg-black border-t border-yellow-400 border-opacity-20">
       <div className="max-w-6xl mx-auto px-4 py-12">
-        {/* Footer Content Grid */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
-          {/* Logo Section */}
           <div className="flex flex-col items-start">
             <div className="mb-2">
               <img src="src/assets/images/LargerResLogo.png" alt="Twin Saga Logo" className="h-auto w-100 object-contain"/>
@@ -34,7 +32,6 @@ export function Footer() {
             </p>
           </div>
 
-          {/* Navigation Links */}
           <div>
             <h3 className="text-yellow-400 font-cinzel text-lg mb-4 drop-shadow-lg">
               Navigation
@@ -53,7 +50,6 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Download Buttons */}
           <div>
             <h3 className="text-yellow-400 font-cinzel text-lg mb-4 drop-shadow-lg">
               Download
@@ -73,7 +69,6 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Authentication Section */}
           <div>
             <h3 className="text-yellow-400 font-cinzel text-lg mb-4 drop-shadow-lg">
               Account
@@ -117,10 +112,8 @@ export function Footer() {
           </div>
         </div>
 
-        {/* Divider */}
         <div className="border-t border-yellow-400 border-opacity-20 my-8"></div>
 
-        {/* Copyright */}
         <div className="text-center">
           <p className="text-gray-500 text-sm">
             &copy; 2026 Twin Saga. All rights reserved.

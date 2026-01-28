@@ -1,6 +1,5 @@
 import type { ChangelogCard } from "../../types";
 
-// Helper to generate unique IDs (UUID alternative for small dataset)
 const generateId = (prefix: string, index: number) => `${prefix}-${index}-${Date.now()}`;
 
 export const changelogCards: ChangelogCard[] = [

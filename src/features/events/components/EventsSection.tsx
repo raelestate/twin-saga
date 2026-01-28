@@ -17,7 +17,6 @@ export function EventsSection() {
 
   return (
     <section className="relative mx-auto px-4 py-20 bg-linear-to-b from-gray-900 via-black to-gray-900 overflow-hidden">
-      {/* Animated Background */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
         {[...Array(10)].map((_, i) => (
           <motion.div
@@ -40,7 +39,6 @@ export function EventsSection() {
         ))}
       </div>
 
-      {/* Floating decorative elements */}
       <div className="absolute bottom-0 left-0 w-500 h-500 pointer-events-none overflow-hidden opacity-20">
         <img
           src="src/assets/images/Dr-Strange-Magic-Circle-Mystical-Energy-Effect-PNG.png"
@@ -73,7 +71,6 @@ export function EventsSection() {
               transition={{ duration: 0.6, delay: idx * 0.1 }}
               className="custom-frame group overflow-hidden rounded-xl shadow-xl hover:shadow-2xl transition-all border border-yellow-400 border-opacity-40 hover:border-opacity-100 bg-linear-to-br from-gray-900 via-gray-800 to-black"
             >
-              {/* Event Image */}
               <div className="grid grid-cols-1 md:grid-cols-3 gap-0">
                 <div className="md:col-span-1 h-64 md:h-full overflow-hidden relative">
                   <img
@@ -83,7 +80,6 @@ export function EventsSection() {
                   />
                   <div className="absolute inset-0 bg-linear-to-r from-black via-transparent to-transparent"></div>
                   
-                  {/* Status Badge */}
                   <div className="absolute top-10 right-4">
                     <span className={`px-4 py-2 rounded-full font-cinzel text-sm font-bold ${
                       event.status === 'ONGOING' 
@@ -95,7 +91,6 @@ export function EventsSection() {
                   </div>
                 </div>
 
-                {/* Content */}
                 <div className="md:col-span-2 p-8 flex flex-col justify-between">
                   <div>
                     <h3 className="text-3xl font-cinzel text-yellow-400 mb-4 group-hover:text-yellow-300 transition-colors">

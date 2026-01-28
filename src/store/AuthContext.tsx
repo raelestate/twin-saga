@@ -21,7 +21,6 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const [user, setUser] = useState<User | null>(null);
   const [isLoading, setIsLoading] = useState(true);
 
-  // Initialize from localStorage
   useEffect(() => {
     const stored = localStorage.getItem('auth_user');
     if (stored) {
@@ -31,7 +30,6 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }, []);
 
   const login = async (username: string, _password: string) => {
-    // Simulate API call
     const newUser: User = {
       id: Math.random().toString(),
       username,

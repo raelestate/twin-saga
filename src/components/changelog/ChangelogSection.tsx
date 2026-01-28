@@ -12,9 +12,7 @@ export function ChangelogSection() {
   return (
     <section className="relative mx-auto px-4 py-20 bg-linear-to-b from-gray-900 via-black to-gray-950 overflow-hidden">
 
-      {/* Floating decorative elements */}
       <div className="absolute top-0 left-0 w-1000 h-1000 pointer-events-none overflow-hidden">
-        {/* Floating Orb 1 */}
         <img
           src="src/assets/images/95-951926_go-to-image-magic-circle-anime-png-clipart.png"
           alt="Floating Orb"
@@ -24,7 +22,6 @@ export function ChangelogSection() {
        
       </div>
       <div className="absolute bottom-0 right-0 w-1000 h-1000 pointer-events-none overflow-hidden">
-        {/* Floating Orb 2 */}
         <img
           src="src/assets/images/95-951926_go-to-image-magic-circle-anime-png-clipart.png"
           alt="Floating Orb"
@@ -47,7 +44,6 @@ export function ChangelogSection() {
         ))}
       </div>
 
-      {/* Pagination / Show More */}
       <div className="mt-12 text-center relative z-10 flex flex-col sm:flex-row justify-center items-center gap-4">
         <span className="text-gray-400 font-mono tracking-wider">Keep exploring the realms...</span>
         {hasMore && (

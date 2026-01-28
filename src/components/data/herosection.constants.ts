@@ -1,4 +1,3 @@
-// herosection.constants.ts
 export const HERO_BACKGROUND =
   "src/assets/images/The_Royal_City_of_Arcadia.webp";
 

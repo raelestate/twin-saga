@@ -26,7 +26,6 @@ export function MediaSection() {
 
   return (
     <section className="relative mx-auto px-4 py-20 bg-linear-to-b from-black via-gray-900 to-black overflow-hidden">
-      {/* Floating decorative elements */}
       <div className="absolute top-0 right-0 w-500 h-500 pointer-events-none overflow-hidden opacity-20">
         <img
           src="src/assets/images/95-951926_go-to-image-magic-circle-anime-png-clipart.png"
@@ -43,7 +42,6 @@ export function MediaSection() {
           Discover stunning visuals from Twin Saga. Experience cinematic trailers, exclusive behind-the-scenes content, and breathtaking screenshots.
         </p>
 
-        {/* Slideshow */}
         <motion.div
           key={currentSlide}
           initial={{ opacity: 0 }}
@@ -57,7 +55,6 @@ export function MediaSection() {
             </div>
             <div className="absolute inset-0 bg-linear-to-t from-black via-transparent to-transparent"></div>
             
-            {/* Navigation buttons */}
             <button
               onClick={prevSlide}
               className="absolute left-4 top-1/2 -translate-y-1/2 bg-yellow-400 bg-opacity-20 hover:bg-opacity-40 text-yellow-400 px-4 py-2 rounded transition-all z-20"

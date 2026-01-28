@@ -10,7 +10,6 @@ export function useChangelog(service: ChangelogService) {
   const [loading, setLoading] = useState(false);
   const [page, setPage] = useState(1);
 
-  // Fetch data from service
   const fetchPage = useCallback(
     async (currentCursor?: string) => {
       setLoading(true);
@@ -24,26 +23,23 @@ export function useChangelog(service: ChangelogService) {
     [service]
   );
 
-  // Load next page
   const next = useCallback(async () => {
     if (!hasMore || loading) return;
 
-    if (cursor) setHistory(prev => [...prev, cursor]); // save current cursor for prev
+    if (cursor) setHistory(prev => [...prev, cursor]); /
     await fetchPage(cursor ?? undefined);
     setPage(prev => prev + 1);
   }, [cursor, fetchPage, hasMore, loading]);
 
-  // Load previous page
   const prev = useCallback(async () => {
     if (history.length === 0 || loading) return;
 
     const prevCursor = history[history.length - 1];
-    setHistory(prev => prev.slice(0, -1)); // remove last cursor
+    setHistory(prev => prev.slice(0, -1)); 
     await fetchPage(prevCursor);
     setPage(prev => Math.max(prev - 1, 1));
   }, [history, fetchPage, loading]);
 
-  // Initial load
   useEffect(() => {
     fetchPage();
   }, [fetchPage]);

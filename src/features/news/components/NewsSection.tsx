@@ -16,7 +16,6 @@ export function NewsSection() {
 
   return (
     <section className="relative mx-auto px-4 py-20 bg-linear-to-b from-black via-gray-900 to-black overflow-hidden">
-      {/* Floating decorative elements */}
       <div className="absolute top-10 right-0 w-500 h-500 pointer-events-none overflow-hidden opacity-20">
         <img
           src="src/assets/images/95-951926_go-to-image-magic-circle-anime-png-clipart.png"
@@ -49,7 +48,6 @@ export function NewsSection() {
               transition={{ duration: 0.6, delay: idx * 0.1 }}
               className="custom-frame group overflow-hidden rounded-xl shadow-xl hover:shadow-2xl transition-all border border-yellow-400 border-opacity-40 hover:border-opacity-100 bg-linear-to-br from-gray-900 via-gray-800 to-black"
             >
-              {/* Featured Image */}
               <div className="grid grid-cols-1 md:grid-cols-3 gap-0">
                 <div className="md:col-span-1 h-64 md:h-full overflow-hidden">
                   <img
@@ -59,7 +57,6 @@ export function NewsSection() {
                   />
                 </div>
 
-                {/* Content */}
                 <div className="md:col-span-2 p-8 flex flex-col justify-between">
                   <div>
                     <div className="flex items-center justify-between mb-4">

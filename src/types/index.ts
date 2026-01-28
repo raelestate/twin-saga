@@ -1,4 +1,3 @@
-// Changelog feature types
 export interface ChangelogCard {
   id: string;
   image: string;
@@ -12,9 +11,7 @@ export interface ChangelogResponse {
   data: ChangelogCard[];
   nextCursor: string | null;
 }
-// Shared DTOs, API responses, and domain models
 
-// Example: Changelog
 export interface ChangelogItem {
   id: string;
   title: string;
@@ -28,7 +25,6 @@ export interface ApiResponse<T> {
   error?: string;
 }
 
-// Example: Auth
 export interface AuthCredentials {
   username: string;
   password: string;

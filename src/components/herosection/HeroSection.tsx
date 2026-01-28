@@ -62,11 +62,7 @@ export const HeroSection: FC<HeroSectionWithImagesProps> = ({
 ))}
 
 
-
-
-      {/* Hero Content */}
       <div className="relative z-20 max-w-7xl mx-auto px-4 py-20 flex xl:flex lg:gap-8 md:block justify-between flex-wrap">
-        {/* Left */}
         <div className="flex-1 text-center lg:text-left space-y-6 w-full lg:w-auto">
           <h4 className="text-yellow-400 font-cinzel font-semibold text-[clamp(1rem,2vw,1.5rem)]">
             Hardcore MMORPG • INTERNATIONAL
@@ -86,7 +82,6 @@ export const HeroSection: FC<HeroSectionWithImagesProps> = ({
           </div>
         </div>
 
-        {/* Right */}
         <div className="flex-1 relative">
           <HeroImageSlideshow
             images={[

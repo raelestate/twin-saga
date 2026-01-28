@@ -1,13 +1,11 @@
 import type { IconType } from 'react-icons';
 import type { ChangelogCard } from '../types';
 
-// Navigation item
 export interface NavItem {
   label: string;
   href: string;
 }
 
-// ChangelogCard and ChangelogResponse moved to src/types/index.ts
 
 
 export interface ChangelogSectionProps {
@@ -18,7 +16,7 @@ export interface ChangelogSectionProps {
 
 export interface HeroImageSlideshowProps {
   images: string[];
-  interval?: number; // ms between slides
+  interval?: number; 
 }
 
 export interface SidebarItem {

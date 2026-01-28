@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 export function WikiSection() {
   return (
     <section className="relative mx-auto px-4 py-20 bg-linear-to-b from-gray-900 via-black to-gray-900 overflow-hidden">
-      {/* Floating decorative elements */}
       <div className="absolute bottom-0 right-0 w-500 h-500 pointer-events-none overflow-hidden opacity-20">
         <img
           src="src/assets/images/95-951926_go-to-image-magic-circle-anime-png-clipart.png"

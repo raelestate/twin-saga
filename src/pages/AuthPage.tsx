@@ -38,7 +38,6 @@ export function AuthPage() {
     setLoading(true);
 
     try {
-      // Basic validation
       if (isLoginMode) {
         if (!email || !password) {
           setError("Please fill in all fields");
@@ -71,7 +70,6 @@ export function AuthPage() {
   const toggleForm = () => {
     setIsLoginMode(!isLoginMode);
     setError("");
-    // Clear fields
     setEmail("");
     setPassword("");
     setUsername("");
@@ -93,7 +91,6 @@ export function AuthPage() {
 
       <div className="relative w-full min-h-screen bg-linear-to-b from-gray-900 via-black to-gray-950 flex items-center justify-center overflow-hidden">
 
-        {/* Floating Sparks */}
         {floatingElements.map((el, index) => (
           <img
             key={`${el.src}-${index}`}
@@ -112,9 +109,7 @@ export function AuthPage() {
           />
         ))}
 
-        {/* Floating decorative elements */}
         <div className="absolute top-0 left-0 w-1000 h-1000 pointer-events-none overflow-hidden">
-          {/* Floating Orb 1 */}
           <img
             src="src/assets/images/95-951926_go-to-image-magic-circle-anime-png-clipart.png"
             alt="Floating Orb"
@@ -122,14 +117,12 @@ export function AuthPage() {
           />
         </div>
         <div className="absolute bottom-0 right-0 w-1000 h-1000 pointer-events-none overflow-hidden">
-          {/* Floating Orb 2 */}
           <img
             src="src/assets/images/95-951926_go-to-image-magic-circle-anime-png-clipart.png"
             alt="Floating Orb"
             className="absolute w-7xl h-320 -bottom-160 -right-160 animate-spin-slow opacity-40 pointer-events-none select-none"
           />
         </div>
-        {/* Auth Form */}
         <AnimatePresence mode="wait">
           <motion.form
             key={isLoginMode ? "login" : "register"}

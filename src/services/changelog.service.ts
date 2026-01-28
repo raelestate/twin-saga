@@ -1,7 +1,6 @@
 import type { ChangeLogEntry } from "../types/changelog";
 
 export const getChangeLog = async (): Promise<ChangeLogEntry[]> => {
-  // Simulated async fetch (API-ready)
   return Promise.resolve([
     {
       version: "v1.2.0",

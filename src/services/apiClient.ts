@@ -1,7 +1,6 @@
 import type { AxiosRequestConfig, AxiosResponse } from 'axios';
 import axios from 'axios';
 
-// API config from environment variables
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL as string;
 
 if (!API_BASE_URL) {
@@ -44,8 +43,6 @@ export class ApiClient {
       });
       return response;
     } catch (error: any) {
-      // Centralized error handling
-      // Optionally add logging, error transformation, etc.
       throw error;
     }
   }

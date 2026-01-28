@@ -1,4 +1,4 @@
-import './Button.css'; // import custom CSS
+import './Button.css'; 
 
 export const Button = ({
   className = '',
